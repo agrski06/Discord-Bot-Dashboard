@@ -1,0 +1,24 @@
+:root {
+  --dc5: #1e2124;
+  --dc4: #282b30;
+  --dc3: #36393e;
+  --dc2: #424549;
+  --dc1: #7289da;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: var(--dc3);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.col {
+ padding: 1rem;
+  background-color: #282b30;
+}
