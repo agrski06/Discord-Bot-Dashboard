@@ -19,6 +19,27 @@ body {
 }
 
 .col {
- padding: 1rem;
+  padding: 1rem;
   background-color: #282b30;
+  border-radius: 0.5rem;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.command {
+  padding: 0.5rem;
+  background-color: #36393e;
+}
+
+#avatar > img {
+  max-height: 150px;
+}
+
+#name {
+  font-weight: bold;
 }
