@@ -43,3 +43,13 @@ body {
 #name {
   font-weight: bold;
 }
+
+#server {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#server > img {
+  max-width: 75px;
+}
