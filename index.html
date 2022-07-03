@@ -40,6 +40,26 @@
                     <input type="text" name="message" id="message">
                     <button onclick="sendMessage();">Send</button>
                 </div>
+
+                <div class="command tts">
+                    <p>Send text to speech</p>
+                    <label for="langs">Lang: </label>
+                    <select name="langs" id="langs">
+                        
+                    </select>
+                    <input type="text" name="tts" id="tts">
+                    <button onclick="sendTTS();">Send</button>
+                </div>
+
+                <div class="command voice">
+                    <p>Voice channels (connected)</p>
+                    
+                    <div id="voice-channels">
+
+                    </div>
+
+                    <button onclick="connect();">Connect</button>
+                </div>
                 
             </div>
         </div>
