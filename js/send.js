@@ -24,7 +24,8 @@ async function sendTTS() {
       headers: {'Content-Type': 'application/json'}, 
       body: JSON.stringify({'text': mes,
         'serverId': localStorage.getItem('server'),
-        'lang': lang
+        'lang': lang,
+        'channelId': localStorage.getItem('voiceChannel')
       })
     }).then(res => {
       console.log("Request complete! response:", res.body());
