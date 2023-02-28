@@ -1,0 +1,3 @@
+# Discord-Bot-Dashboard
+
+Pure js mishmash...
